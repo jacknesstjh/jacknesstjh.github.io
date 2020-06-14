@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Be the change,you wanna see in the world</title>
-    <link>http://jacknesstjh.github.io/</link>
+    <link>https://jacknesstjh.github.io/</link>
     <description>Recent content on Be the change,you wanna see in the world</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 May 2020 16:10:05 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 05:54:38 +0800</lastBuildDate>
     
-	<atom:link href="http://jacknesstjh.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jacknesstjh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>浮生六记（二）</title>
+      <link>https://jacknesstjh.github.io/post/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0%E4%BA%8C/</link>
+      <pubDate>Mon, 15 Jun 2020 05:54:38 +0800</pubDate>
+      
+      <guid>https://jacknesstjh.github.io/post/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0%E4%BA%8C/</guid>
+      <description>最近学习状态好像好了一些，起码有一点坚持下去的理由。已经开始学习python编程和go编程。我的师父说我的年龄恐怕无法再做程序员了，但是我还是很有兴趣学习编程。 不知道什么时候可以学到可以面对工作的程度，但是我还是会坚持。最近感觉学得有点小进步。基本编程课上的小练习都能做出来。但是我还是感觉自己编程没有天赋。 博客建了一段时间了，但是一直没时间更新博文，主要没有什么积累，不知道写些什么。这次买的是达内python编程的课程。我打算好好学习，因为达内的课程讲得比较细。对我们学习来说，可以说是最棒的教程了。 我现在每天坚持学习6-8小时，我想应该够了。只要我一直坚持的话。 白天学python，晚上学习go。虽然进步很慢，但是我还是觉得很有劲头，因为我真的很喜欢编程，我很羡慕靠编程过日子的人的生活。我打算一直这样努力下去。 我发现现在学习耐心有提高，可以坐在电脑前面好几小时不动地。我觉得我还是有机会学完整个教程的，如果四个月学不完，我就八个月，反正我待业在家，有的是时间。</description>
+    </item>
+    
+    <item>
       <title>浮生六记（一）</title>
-      <link>http://jacknesstjh.github.io/post/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0%E4%B8%80/</link>
+      <link>https://jacknesstjh.github.io/post/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0%E4%B8%80/</link>
       <pubDate>Tue, 05 May 2020 16:10:05 +0800</pubDate>
       
-      <guid>http://jacknesstjh.github.io/post/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0%E4%B8%80/</guid>
+      <guid>https://jacknesstjh.github.io/post/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0%E4%B8%80/</guid>
       <description>今天是我的新博客开张第一天，我心情很激动，想想最近发生的事情。我觉得很高兴。我能静下心来学习go语言编程了。而且能坚持，我之前都是学几天就放弃了。这次我觉得我能坚持下去。
 这张照片是我家四世同堂的全家福，不过现在我表妹佳佳家里又生了二胎，现在要是拍全家福恐怕就不是这么多人了。还需要添加一个小宝宝，璇璇。 最近舅妈给我一个好的工作，就是背广告包，也能赚点烟钱。虽然比起刷单要苦，但是我在家除了学习go编程外加学习高级口译也没什么事。所以对我来说是很适合我的一个工作。我明天就要开始了。四个包，每个包每天要11000步的算力。对我来说是个不小的挑战。不过我相信我能坚持下去的。毕竟这是一条赚点零花钱的好路子。
 看到这些照片里面的人，我也是感慨万千，四世同堂非常和谐。最让我高兴的事是外公和外婆身体都健康，很硬朗。他们两个老人家在非常热闹，我们遇到节日都会去我外婆家吃饭，大家团聚，非常开心。今年是特殊的一年，由于武汉肺炎，新型冠状病毒的疫情，家里很多在外地的亲戚不能回家团聚。这点虽然遗憾，但是也没办法。谁让武汉病毒实验室会泄露生化武器呢？
@@ -25,10 +34,10 @@
     
     <item>
       <title>Go语言漫谈（一）</title>
-      <link>http://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/</link>
+      <link>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/</link>
       <pubDate>Tue, 05 May 2020 11:11:45 +0800</pubDate>
       
-      <guid>http://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/</guid>
+      <guid>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/</guid>
       <description>我第二次接触go语言编程了，感觉上这一次似乎顺利了一些。但是还是学习的非常慢。
 我发现编程语言很多相似的点，但是学起来还是很慢。希望我之后学习中会进步比较大吧。
 今天又想建个博客，所以用了Hugo建了一个。感觉还不错，但是第一次用Hugo还是很多东西不懂。所以弄的不漂亮。需要慢慢摸索。可惜没有大神指导。看看别人的博客，很多都很漂亮，心里还是很嫉妒的。我想弄好点，但是不知道从哪里起步，弄起来很慢。尝试弄加个网易云音乐但是很多歌曲都有版权保护不能生成外链。哎，不知道该怎么美化我的个人博客，真的很糟心。  package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello world!&amp;quot;) } 既然是Go语言漫谈就添加我学的第一个go程序吧，helloworld大家都会的代码。新博客第一天，希望一切顺利，我能早点优化好博客，同时学习好go语言编程。
