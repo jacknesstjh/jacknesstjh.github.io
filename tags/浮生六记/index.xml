@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Be the change,you wanna see in the world</title>
-        <link>https://jacknesstjh.github.io/</link>
-        <description>Recent content on Be the change,you wanna see in the world</description>
+        <title>浮生六记 on Be the change,you wanna see in the world</title>
+        <link>https://jacknesstjh.github.io/tags/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0/</link>
+        <description>Recent content in 浮生六记 on Be the change,you wanna see in the world</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Wed, 20 Dec 2023 08:31:36 +0800</lastBuildDate><atom:link href="https://jacknesstjh.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 20 Dec 2023 08:31:36 +0800</lastBuildDate><atom:link href="https://jacknesstjh.github.io/tags/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>浮生六记（四）</title>
         <link>https://jacknesstjh.github.io/post/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0%E5%9B%9B/</link>
         <pubDate>Wed, 20 Dec 2023 08:31:36 +0800</pubDate>
@@ -74,29 +74,6 @@
 最近舅妈给我一个好的工作，就是背广告包，也能赚点烟钱。虽然比起刷单要苦，但是我在家除了学习go编程外加学习高级口译也没什么事。所以对我来说是很适合我的一个工作。我明天就要开始了。四个包，每个包每天要11000步的算力。对我来说是个不小的挑战。不过我相信我能坚持下去的。毕竟这是一条赚点零花钱的好路子。&lt;/p&gt;
 &lt;p&gt;看到这些照片里面的人，我也是感慨万千，四世同堂非常和谐。最让我高兴的事是外公和外婆身体都健康，很硬朗。他们两个老人家在非常热闹，我们遇到节日都会去我外婆家吃饭，大家团聚，非常开心。今年是特殊的一年，由于武汉肺炎，新型冠状病毒的疫情，家里很多在外地的亲戚不能回家团聚。这点虽然遗憾，但是也没办法。谁让武汉病毒实验室会泄露生化武器呢？&lt;/p&gt;
 &lt;p&gt;中国还在狡辩不承认病毒是来源于武汉病毒研究所，ccp真的是脸皮厚，我看他怎么收场。今天主要弄了Hugo建了这个新博客，所以我要发点文章点缀点缀页面。进一步的优化和美化，我打算慢慢摸索。用Hugo建博客是第一次，速度还是很快的。虽然遇到了一些网上教程的错误导致的坑，还好遇到大神给我指点，终于建出来了。好了吧，今天就写到这里。我们下次再见！&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Go语言漫谈（一）</title>
-        <link>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/</link>
-        <pubDate>Tue, 05 May 2020 11:11:45 +0800</pubDate>
-        
-        <guid>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/</guid>
-        <description>&lt;p&gt;我第二次接触go语言编程了，感觉上这一次似乎顺利了一些。但是还是学习的非常慢。&lt;/p&gt;
-&lt;p&gt;我发现编程语言很多相似的点，但是学起来还是很慢。希望我之后学习中会进步比较大吧。&lt;/p&gt;
-&lt;p&gt;今天又想建个博客，所以用了Hugo建了一个。感觉还不错，但是第一次用Hugo还是很多东西不懂。所以弄的不漂亮。需要慢慢摸索。可惜没有大神指导。看看别人的博客，很多都很漂亮，心里还是很嫉妒的。我想弄好点，但是不知道从哪里起步，弄起来很慢。尝试弄加个网易云音乐但是很多歌曲都有版权保护不能生成外链。哎，不知道该怎么美化我的个人博客，真的很糟心。
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
-package main
-
-import &amp;#34;fmt&amp;#34;
-
-func main() {
-	fmt.Println(&amp;#34;Hello world!&amp;#34;)
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;既然是Go语言漫谈就添加我学的第一个go程序吧，helloworld大家都会的代码。新博客第一天，希望一切顺利，我能早点优化好博客，同时学习好go语言编程。&lt;/p&gt;
-&lt;p&gt;希望我的生活越来越美好。&lt;/p&gt;
 </description>
         </item>
         
