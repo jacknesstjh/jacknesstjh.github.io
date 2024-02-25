@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='坚持学习go语言编程的第2天，我觉得编程学习起来还是不容易的，特别是对我来说。第一天学了如何配置go编程环境，然后学了变量的声明。今天是第二天学了常量的声明和使用。
+我每天可以看最多7个视频，还要看时间长短，短的可以看7个，如果是长的，我大概一天可以看3-4个。每天坚持下去吧，坚持看和学习。
+我现在基本的概念就学了变量和常量。希望我坚持下去，不要学2天就忘记学习了。我从现在开始每天看视频，每天发博文。下面贴一下常量的学习内容。
+package main import &amp;#34;fmt&amp;#34; //常量 //常量定义了之后不能修改 //在程序运行期间不会改变的量 const pi = 3.1415926 // 批量声明常量 const ( statusOK = 200 notFound = 404 ) // 批量声明常量时，如果某一行声明后没有赋值，默认就和上一行一致 const ( n1 = 100 n2 n3 ) // iota:类似枚举 const ( a1 = iota //0 a2 //1 a3 //2 ) const ( b1 = iota //0 b2 //1 _ //2 b3 //3 ) // 插队 const ( c1 = iota //0 c2 = 100 //100 c3 = iota //2 c4 //3 ) // 多个常量声明在一行 const ( d1, d2 = iota &#43; 1, iota &#43; 2 //d1:1,d2:2 d3, d4 = iota &#43; 1, iota &#43; 2 //d3:2,d4:3 ) // 定义数量级 const ( _ = iota KB = 1 &amp;lt;&amp;lt; (10 * iota) MB = 1 &amp;lt;&amp;lt; (10 * iota) GB = 1 &amp;lt;&amp;lt; (10 * iota) TB = 1 &amp;lt;&amp;lt; (10 * iota) PB = 1 &amp;lt;&amp;lt; (10 * iota) ) func main() { //pi = 123 fmt.'>
+<title>Go语言漫谈（三）</title>
+
+<link rel='canonical' href='https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%89/'>
+
+<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Go语言漫谈（三）'>
+<meta property='og:description' content='坚持学习go语言编程的第2天，我觉得编程学习起来还是不容易的，特别是对我来说。第一天学了如何配置go编程环境，然后学了变量的声明。今天是第二天学了常量的声明和使用。
+我每天可以看最多7个视频，还要看时间长短，短的可以看7个，如果是长的，我大概一天可以看3-4个。每天坚持下去吧，坚持看和学习。
+我现在基本的概念就学了变量和常量。希望我坚持下去，不要学2天就忘记学习了。我从现在开始每天看视频，每天发博文。下面贴一下常量的学习内容。
+package main import &amp;#34;fmt&amp;#34; //常量 //常量定义了之后不能修改 //在程序运行期间不会改变的量 const pi = 3.1415926 // 批量声明常量 const ( statusOK = 200 notFound = 404 ) // 批量声明常量时，如果某一行声明后没有赋值，默认就和上一行一致 const ( n1 = 100 n2 n3 ) // iota:类似枚举 const ( a1 = iota //0 a2 //1 a3 //2 ) const ( b1 = iota //0 b2 //1 _ //2 b3 //3 ) // 插队 const ( c1 = iota //0 c2 = 100 //100 c3 = iota //2 c4 //3 ) // 多个常量声明在一行 const ( d1, d2 = iota &#43; 1, iota &#43; 2 //d1:1,d2:2 d3, d4 = iota &#43; 1, iota &#43; 2 //d3:2,d4:3 ) // 定义数量级 const ( _ = iota KB = 1 &amp;lt;&amp;lt; (10 * iota) MB = 1 &amp;lt;&amp;lt; (10 * iota) GB = 1 &amp;lt;&amp;lt; (10 * iota) TB = 1 &amp;lt;&amp;lt; (10 * iota) PB = 1 &amp;lt;&amp;lt; (10 * iota) ) func main() { //pi = 123 fmt.'>
+<meta property='og:url' content='https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%89/'>
+<meta property='og:site_name' content='Be the change,you wanna see in the world'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='go语言' /><meta property='article:published_time' content='2024-02-25T12:15:08&#43;08:00'/><meta property='article:modified_time' content='2024-02-25T12:15:08&#43;08:00'/>
+<meta name="twitter:title" content="Go语言漫谈（三）">
+<meta name="twitter:description" content="坚持学习go语言编程的第2天，我觉得编程学习起来还是不容易的，特别是对我来说。第一天学了如何配置go编程环境，然后学了变量的声明。今天是第二天学了常量的声明和使用。
+我每天可以看最多7个视频，还要看时间长短，短的可以看7个，如果是长的，我大概一天可以看3-4个。每天坚持下去吧，坚持看和学习。
+我现在基本的概念就学了变量和常量。希望我坚持下去，不要学2天就忘记学习了。我从现在开始每天看视频，每天发博文。下面贴一下常量的学习内容。
+package main import &amp;#34;fmt&amp;#34; //常量 //常量定义了之后不能修改 //在程序运行期间不会改变的量 const pi = 3.1415926 // 批量声明常量 const ( statusOK = 200 notFound = 404 ) // 批量声明常量时，如果某一行声明后没有赋值，默认就和上一行一致 const ( n1 = 100 n2 n3 ) // iota:类似枚举 const ( a1 = iota //0 a2 //1 a3 //2 ) const ( b1 = iota //0 b2 //1 _ //2 b3 //3 ) // 插队 const ( c1 = iota //0 c2 = 100 //100 c3 = iota //2 c4 //3 ) // 多个常量声明在一行 const ( d1, d2 = iota &#43; 1, iota &#43; 2 //d1:1,d2:2 d3, d4 = iota &#43; 1, iota &#43; 2 //d3:2,d4:3 ) // 定义数量级 const ( _ = iota KB = 1 &amp;lt;&amp;lt; (10 * iota) MB = 1 &amp;lt;&amp;lt; (10 * iota) GB = 1 &amp;lt;&amp;lt; (10 * iota) TB = 1 &amp;lt;&amp;lt; (10 * iota) PB = 1 &amp;lt;&amp;lt; (10 * iota) ) func main() { //pi = 123 fmt.">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu901b37f82f586681da34e0d10461be3d_15026_300x0_resize_q75_box.jpeg" width="300"
+                            height="240" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Be the change,you wanna see in the world</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88/" >
+                go语言漫谈
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%89/">Go语言漫谈（三）</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 25, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>坚持学习go语言编程的第2天，我觉得编程学习起来还是不容易的，特别是对我来说。第一天学了如何配置go编程环境，然后学了变量的声明。今天是第二天学了常量的声明和使用。</p>
+<p>我每天可以看最多7个视频，还要看时间长短，短的可以看7个，如果是长的，我大概一天可以看3-4个。每天坚持下去吧，坚持看和学习。</p>
+<p>我现在基本的概念就学了变量和常量。希望我坚持下去，不要学2天就忘记学习了。我从现在开始每天看视频，每天发博文。下面贴一下常量的学习内容。</p>
+<pre tabindex="0"><code>package main
+
+import &#34;fmt&#34;
+
+//常量
+//常量定义了之后不能修改
+//在程序运行期间不会改变的量
+
+const pi = 3.1415926
+
+// 批量声明常量
+const (
+  statusOK = 200
+  notFound = 404
+)
+
+// 批量声明常量时，如果某一行声明后没有赋值，默认就和上一行一致
+const (
+  n1 = 100
+  n2
+  n3
+)
+
+// iota:类似枚举
+const (
+  a1 = iota //0
+  a2        //1
+  a3        //2
+)
+const (
+  b1 = iota //0
+  b2        //1
+  _         //2
+  b3        //3
+)
+
+// 插队
+const (
+  c1 = iota //0
+  c2 = 100  //100
+  c3 = iota //2
+  c4        //3
+)
+
+// 多个常量声明在一行
+const (
+  d1, d2 = iota + 1, iota + 2 //d1:1,d2:2
+  d3, d4 = iota + 1, iota + 2 //d3:2,d4:3
+)
+
+// 定义数量级
+const (
+  _  = iota
+  KB = 1 &lt;&lt; (10 * iota)
+  MB = 1 &lt;&lt; (10 * iota)
+  GB = 1 &lt;&lt; (10 * iota)
+  TB = 1 &lt;&lt; (10 * iota)
+  PB = 1 &lt;&lt; (10 * iota)
+)
+
+func main() {
+  //pi = 123
+  fmt.Println(&#34;n1&#34;, n1)
+  fmt.Println(&#34;n2&#34;, n2)
+  fmt.Println(&#34;n3&#34;, n3)
+
+  fmt.Println(&#34;a1&#34;, a1)
+  fmt.Println(&#34;a2&#34;, a2)
+  fmt.Println(&#34;a3&#34;, a3)
+
+  fmt.Println(&#34;b1&#34;, b1)
+  fmt.Println(&#34;b2&#34;, b2)
+  fmt.Println(&#34;b3&#34;, b3)
+
+  fmt.Println(&#34;c1&#34;, c1)
+  fmt.Println(&#34;c2&#34;, c2)
+  fmt.Println(&#34;c3&#34;, c3)
+  fmt.Println(&#34;c4&#34;, c4)
+
+  fmt.Println(&#34;d1&#34;, d1)
+  fmt.Println(&#34;d2&#34;, d2)
+  fmt.Println(&#34;d3&#34;, d3)
+  fmt.Println(&#34;d4&#34;, d4)
+}
+</code></pre>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/hugo/">hugo</a>
+        
+            <a href="/tags/go%E8%AF%AD%E8%A8%80/">go语言</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%BA%8C/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Go语言漫谈（二）</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Go语言漫谈（一）</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "tangjackness" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 Be the change,you wanna see in the world
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.21.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
