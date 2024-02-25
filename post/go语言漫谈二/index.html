@@ -3,7 +3,7 @@
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='第三次接触go语言编程了，由于间隔时间过长，所以我的环境出了很大的问题，我到处找大佬帮忙，终于把环境搭建好了。
 买了一个30套的GO语言编程视频教程，我每天估计能看7个，慢慢看吧。现在看到了变量声明这一段。基本的编程方法算是掌握了。不知道我学得会不会一直好下去。
-package main import &amp;#34;fmt&amp;#34; //Go语言中推荐使用驼峰式命名 //var student_name string //var studentName string //var StudentName string // 声明变量 //var name string //var age int //var isOK bool // 批量声明 var ( name string //&amp;#34;&amp;#34; age int //0 isOK bool //false ) func main() { name = &amp;#34;理想&amp;#34; age = 16 isOK = true //Go语言中声明的变量必须使用，不使用就会编译不过去 fmt.Print(isOK) //在终端中输出要打印的内容 fmt.Println() fmt.Printf(&amp;#34;name:%s&amp;#34;, name) //%s:占位符 使用name这个变量值去替换占位符 fmt.Println(age) //打印完指定内容后会在后面跟一个换行符 } '>
+package main import &amp;#34;fmt&amp;#34; //Go语言中推荐使用驼峰式命名 //var student_name string //var studentName string //var StudentName string // 声明变量 //var name string //var age int //var isOK bool // 批量声明 var ( name string //&amp;#34;&amp;#34; age int //0 isOK bool //false ) func main() { name = &amp;#34;理想&amp;#34; age = 16 isOK = true //Go语言中声明的非全局变量必须使用，不使用就会编译不过去 //var heiheihei string fmt.Print(isOK) //在终端中输出要打印的内容 fmt.Println() fmt.Printf(&amp;#34;name:%s&amp;#34;, name) //%s:占位符 使用name这个变量值去替换占位符 fmt.Println(age) //打印完指定内容后会在后面跟一个换行符 //heiheihei = &amp;#34;嘿嘿嘿&amp;#34; //声明变量并同时赋值 var s1 string = &amp;#34;whb&amp;#34; fmt.'>
 <title>Go语言漫谈（二）</title>
 
 <link rel='canonical' href='https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%BA%8C/'>
@@ -11,14 +11,14 @@ package main import &amp;#34;fmt&amp;#34; //Go语言中推荐使用驼峰式命�
 <link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='Go语言漫谈（二）'>
 <meta property='og:description' content='第三次接触go语言编程了，由于间隔时间过长，所以我的环境出了很大的问题，我到处找大佬帮忙，终于把环境搭建好了。
 买了一个30套的GO语言编程视频教程，我每天估计能看7个，慢慢看吧。现在看到了变量声明这一段。基本的编程方法算是掌握了。不知道我学得会不会一直好下去。
-package main import &amp;#34;fmt&amp;#34; //Go语言中推荐使用驼峰式命名 //var student_name string //var studentName string //var StudentName string // 声明变量 //var name string //var age int //var isOK bool // 批量声明 var ( name string //&amp;#34;&amp;#34; age int //0 isOK bool //false ) func main() { name = &amp;#34;理想&amp;#34; age = 16 isOK = true //Go语言中声明的变量必须使用，不使用就会编译不过去 fmt.Print(isOK) //在终端中输出要打印的内容 fmt.Println() fmt.Printf(&amp;#34;name:%s&amp;#34;, name) //%s:占位符 使用name这个变量值去替换占位符 fmt.Println(age) //打印完指定内容后会在后面跟一个换行符 } '>
+package main import &amp;#34;fmt&amp;#34; //Go语言中推荐使用驼峰式命名 //var student_name string //var studentName string //var StudentName string // 声明变量 //var name string //var age int //var isOK bool // 批量声明 var ( name string //&amp;#34;&amp;#34; age int //0 isOK bool //false ) func main() { name = &amp;#34;理想&amp;#34; age = 16 isOK = true //Go语言中声明的非全局变量必须使用，不使用就会编译不过去 //var heiheihei string fmt.Print(isOK) //在终端中输出要打印的内容 fmt.Println() fmt.Printf(&amp;#34;name:%s&amp;#34;, name) //%s:占位符 使用name这个变量值去替换占位符 fmt.Println(age) //打印完指定内容后会在后面跟一个换行符 //heiheihei = &amp;#34;嘿嘿嘿&amp;#34; //声明变量并同时赋值 var s1 string = &amp;#34;whb&amp;#34; fmt.'>
 <meta property='og:url' content='https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%BA%8C/'>
 <meta property='og:site_name' content='Be the change,you wanna see in the world'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='go语言' /><meta property='article:published_time' content='2024-02-23T06:36:11&#43;08:00'/><meta property='article:modified_time' content='2024-02-23T06:36:11&#43;08:00'/>
 <meta name="twitter:title" content="Go语言漫谈（二）">
 <meta name="twitter:description" content="第三次接触go语言编程了，由于间隔时间过长，所以我的环境出了很大的问题，我到处找大佬帮忙，终于把环境搭建好了。
 买了一个30套的GO语言编程视频教程，我每天估计能看7个，慢慢看吧。现在看到了变量声明这一段。基本的编程方法算是掌握了。不知道我学得会不会一直好下去。
-package main import &amp;#34;fmt&amp;#34; //Go语言中推荐使用驼峰式命名 //var student_name string //var studentName string //var StudentName string // 声明变量 //var name string //var age int //var isOK bool // 批量声明 var ( name string //&amp;#34;&amp;#34; age int //0 isOK bool //false ) func main() { name = &amp;#34;理想&amp;#34; age = 16 isOK = true //Go语言中声明的变量必须使用，不使用就会编译不过去 fmt.Print(isOK) //在终端中输出要打印的内容 fmt.Println() fmt.Printf(&amp;#34;name:%s&amp;#34;, name) //%s:占位符 使用name这个变量值去替换占位符 fmt.Println(age) //打印完指定内容后会在后面跟一个换行符 } ">
+package main import &amp;#34;fmt&amp;#34; //Go语言中推荐使用驼峰式命名 //var student_name string //var studentName string //var StudentName string // 声明变量 //var name string //var age int //var isOK bool // 批量声明 var ( name string //&amp;#34;&amp;#34; age int //0 isOK bool //false ) func main() { name = &amp;#34;理想&amp;#34; age = 16 isOK = true //Go语言中声明的非全局变量必须使用，不使用就会编译不过去 //var heiheihei string fmt.Print(isOK) //在终端中输出要打印的内容 fmt.Println() fmt.Printf(&amp;#34;name:%s&amp;#34;, name) //%s:占位符 使用name这个变量值去替换占位符 fmt.Println(age) //打印完指定内容后会在后面跟一个换行符 //heiheihei = &amp;#34;嘿嘿嘿&amp;#34; //声明变量并同时赋值 var s1 string = &amp;#34;whb&amp;#34; fmt.">
     </head>
     <body class="
     article-page
@@ -206,11 +206,25 @@ func main() {
 	name = &#34;理想&#34;
 	age = 16
 	isOK = true
-	//Go语言中声明的变量必须使用，不使用就会编译不过去
+	//Go语言中声明的非全局变量必须使用，不使用就会编译不过去
+	//var heiheihei string
 	fmt.Print(isOK) //在终端中输出要打印的内容
 	fmt.Println()
 	fmt.Printf(&#34;name:%s&#34;, name) //%s:占位符 使用name这个变量值去替换占位符
 	fmt.Println(age)            //打印完指定内容后会在后面跟一个换行符
+	//heiheihei = &#34;嘿嘿嘿&#34;
+
+	//声明变量并同时赋值
+	var s1 string = &#34;whb&#34;
+	fmt.Println(s1)
+	//类型推导（根据值判断该变量是什么类型）
+	var s2 = &#34;20&#34;
+	fmt.Println(s2)
+	//简短变量声明 只能在函数里面用
+	s3 := &#34;哈哈哈&#34;
+	fmt.Println(s3)
+	//s1 :=&#34;10&#34;//同一个作用域（{}）中不能重复声明同名的变量
+	//匿名变量是一个特殊的变量 _(后面学了函数再说)
 
 }
 </code></pre>
