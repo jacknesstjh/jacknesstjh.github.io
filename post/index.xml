@@ -479,7 +479,7 @@ func main() {
         <description>&lt;p&gt;我第二次接触go语言编程了，感觉上这一次似乎顺利了一些。但是还是学习的非常慢。&lt;/p&gt;
 &lt;p&gt;我发现编程语言很多相似的点，但是学起来还是很慢。希望我之后学习中会进步比较大吧。&lt;/p&gt;
 &lt;p&gt;今天又想建个博客，所以用了Hugo建了一个。感觉还不错，但是第一次用Hugo还是很多东西不懂。所以弄的不漂亮。需要慢慢摸索。可惜没有大神指导。看看别人的博客，很多都很漂亮，心里还是很嫉妒的。我想弄好点，但是不知道从哪里起步，弄起来很慢。尝试弄加个网易云音乐但是很多歌曲都有版权保护不能生成外链。哎，不知道该怎么美化我的个人博客，真的很糟心。
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;font color=&#34;#dd0000&#34;&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
 package main
 
@@ -488,7 +488,7 @@ import &amp;#34;fmt&amp;#34;
 func main() {
 	fmt.Println(&amp;#34;Hello world!&amp;#34;)
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;/font&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;既然是Go语言漫谈就添加我学的第一个go程序吧，helloworld大家都会的代码。新博客第一天，希望一切顺利，我能早点优化好博客，同时学习好go语言编程。&lt;/p&gt;
 &lt;p&gt;希望我的生活越来越美好。&lt;/p&gt;
 </description>
