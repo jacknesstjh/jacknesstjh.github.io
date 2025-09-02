@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Go语言 on Be the change,you wanna see in the world</title>
-        <link>http://localhost:1313/tags/go%E8%AF%AD%E8%A8%80/</link>
+        <link>https://jacknesstjh.github.io/tags/go%E8%AF%AD%E8%A8%80/</link>
         <description>Recent content in Go语言 on Be the change,you wanna see in the world</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <managingEditor>tjhchina@gmail.com</managingEditor>
         <webMaster>tjhchina@gmail.com</webMaster>
-        <lastBuildDate>Sun, 21 Apr 2024 14:38:17 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/go%E8%AF%AD%E8%A8%80/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 21 Apr 2024 14:38:17 +0800</lastBuildDate><atom:link href="https://jacknesstjh.github.io/tags/go%E8%AF%AD%E8%A8%80/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Go语言漫谈（四）</title>
-        <link>http://localhost:1313/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E5%9B%9B/</link>
+        <link>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E5%9B%9B/</link>
         <pubDate>Sun, 21 Apr 2024 14:38:17 +0800</pubDate>
         <author>tjhchina@gmail.com</author>
-        <guid>http://localhost:1313/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E5%9B%9B/</guid>
+        <guid>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E5%9B%9B/</guid>
         <description>&lt;p&gt;这是第四篇go语言的漫谈，我已经学习go语言一段时间了。今天主要学习了整型。&lt;/p&gt;
 &lt;p&gt;第一篇：如何配置go编程环境&lt;/p&gt;
 &lt;p&gt;第二篇：变量的声明&lt;/p&gt;
@@ -54,10 +54,10 @@ func main() {
         </item>
         <item>
         <title>Go语言漫谈（三）</title>
-        <link>http://localhost:1313/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%89/</link>
+        <link>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%89/</link>
         <pubDate>Sun, 25 Feb 2024 12:15:08 +0800</pubDate>
         <author>tjhchina@gmail.com</author>
-        <guid>http://localhost:1313/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%89/</guid>
+        <guid>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%89/</guid>
         <description>&lt;p&gt;坚持学习go语言编程的第3天，我觉得编程学习起来还是不容易的，特别是对我来说。第一天学了如何配置go编程环境，然后第二天学了变量的声明。今天是第三天学了常量的声明和使用。&lt;/p&gt;
 &lt;p&gt;我每天可以看最多7个视频，还要看时间长短，短的可以看7个，如果是长的，我大概一天可以看3-4个。每天坚持下去吧，坚持看和学习。&lt;/p&gt;
 &lt;p&gt;我现在基本的概念就学了变量和常量。希望我坚持下去，不要学2天就忘记学习了。我从现在开始每天看视频，每天发博文。下面贴一下常量的学习内容。&lt;/p&gt;
@@ -149,10 +149,10 @@ func main() {
         </item>
         <item>
         <title>Go语言漫谈（二）</title>
-        <link>http://localhost:1313/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%BA%8C/</link>
+        <link>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%BA%8C/</link>
         <pubDate>Fri, 23 Feb 2024 06:36:11 +0800</pubDate>
         <author>tjhchina@gmail.com</author>
-        <guid>http://localhost:1313/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%BA%8C/</guid>
+        <guid>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%BA%8C/</guid>
         <description>&lt;p&gt;第三次接触go语言编程了，由于间隔时间过长，所以我的环境出了很大的问题，我到处找大佬帮忙，终于把环境搭建好了。&lt;/p&gt;
 &lt;p&gt;买了一个30套的GO语言编程视频教程，我每天估计能看7个，慢慢看吧。现在看到了变量声明这一段。基本的编程方法算是掌握了。不知道我学得会不会一直好下去。&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package main
@@ -206,10 +206,10 @@ func main() {
         </item>
         <item>
         <title>Go语言漫谈（一）</title>
-        <link>http://localhost:1313/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/</link>
+        <link>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/</link>
         <pubDate>Tue, 05 May 2020 11:11:45 +0800</pubDate>
         <author>tjhchina@gmail.com</author>
-        <guid>http://localhost:1313/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/</guid>
+        <guid>https://jacknesstjh.github.io/post/go%E8%AF%AD%E8%A8%80%E6%BC%AB%E8%B0%88%E4%B8%80/</guid>
         <description>&lt;p&gt;我第二次接触go语言编程了，感觉上这一次似乎顺利了一些。但是还是学习的非常慢。&lt;/p&gt;
 &lt;p&gt;我发现编程语言很多相似的点，但是学起来还是很慢。希望我之后学习中会进步比较大吧。&lt;/p&gt;
 &lt;p&gt;今天又想建个博客，所以用了Hugo建了一个。感觉还不错，但是第一次用Hugo还是很多东西不懂。所以弄的不漂亮。需要慢慢摸索。可惜没有大神指导。看看别人的博客，很多都很漂亮，心里还是很嫉妒的。我想弄好点，但是不知道从哪里起步，弄起来很慢。尝试弄加个网易云音乐但是很多歌曲都有版权保护不能生成外链。哎，不知道该怎么美化我的个人博客，真的很糟心。
